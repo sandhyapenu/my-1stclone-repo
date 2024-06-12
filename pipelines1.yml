@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: MySelfHostedPool
+
+steps:
+- script: echo Hello, World!
+  displayName: 'Run a one-line script'
